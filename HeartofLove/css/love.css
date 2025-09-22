@@ -21,7 +21,7 @@ body {
     position: relative;
 }
 
-/*---------------------- body_left -------------------------*/
+
 .body_left {
     width: 300px;
     height: 300px;
@@ -32,17 +32,16 @@ body {
 
 }
 
-/*---------------------- body_left -------------------------*/
 
-/*---------------------- body_center -------------------------*/
+
 .container .love {
-    width: 520px; /* 13 * 40 */
-    height: 440px; /* 11 * 40 */
+    width: 520px; 
+    height: 440px;
     left: 50%;
     top: 50%;
     position: absolute;
     margin: -260px 0 0 -220px;
-    /*background-color: gray;*/
+   
 }
 
 .love .block {
@@ -58,15 +57,12 @@ body {
     position: absolute;
     background: url("../images/heart.png") no-repeat;
     background-size: contain;
-    /*background-color: #c40908;*/
-    /*border: 1px solid silver;*/
+  
     box-sizing: border-box;
 }
 
 
-/*---------------------- body_center -------------------------*/
 
-/*---------------------- footer -------------------------*/
 @keyframes border {
     0% {
         width: 0;
@@ -139,20 +135,18 @@ body {
     z-index: 99;
 }
 .footer .border .border-top {
-    /*width: 0;*/
-    /*display: inline-block;*/
+   
     border-top: 3px solid black;
     transform-origin: left center;
     -webkit-animation: border 312 linear;
     -o-animation: border 12s linear;
     animation: border 12s linear;
     animation-fill-mode : both;
-    /*border-bottom: none;*/
+
 }
 
 .footer .border .border-bottom {
-    /*width: 0;*/
-    /*display: inline-block;*/
+ 
     float: right;
     border-top: 3px solid red;
     transform-origin: right center;
@@ -160,7 +154,7 @@ body {
     -o-animation: border 7s linear 12s;
     animation: border 7s linear 12s;
     animation-fill-mode : both;
-    /*border-bottom: none;*/
+ 
 }
 
 .footer .copyright {
@@ -169,7 +163,7 @@ body {
     position: absolute;
     bottom: -30px;
     text-align: center;
-    /*background-color: gray;*/
+   
 
 }
 
@@ -183,5 +177,5 @@ body {
     color: dimgray;
 }
 
-/*---------------------- footer -------------------------*/
+
 
